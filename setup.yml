@@ -7,6 +7,6 @@
         update_cache: yes
 
   roles:
-    - maven
-    - mysql
+    # - maven
+    # - mysql
     - tomcat
