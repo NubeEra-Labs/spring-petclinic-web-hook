@@ -1,0 +1,425 @@
+<?xml version="1.0" ?>
+<mxfile host="app.diagrams.net">
+  <diagram name="DevOps Roadmap">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Version Control" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Git" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="4" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="GitHub" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="6" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="2" target="5">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="GitLab" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="2" target="7">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Bitbucket" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="10" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="2" target="9">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="CI/CD" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Jenkins" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="13" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="GitHub Actions" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="15" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="11" target="14">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="GitLab CI" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="17" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="11" target="16">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="CircleCI" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="19" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="11" target="18">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="Azure DevOps" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="21" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="11" target="20">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="Travis CI" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="23" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="11" target="22">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="24" value="Configuration Management" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="25" value="Ansible" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="26" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="24" target="25">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="27" value="Puppet" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="28" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="24" target="27">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="29" value="Chef" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="30" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="24" target="29">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="31" value="SaltStack" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="32" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="24" target="31">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="33" value="Containerization" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="34" value="Docker" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="35" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="33" target="34">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="36" value="Podman" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="560" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="37" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="33" target="36">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="38" value="Buildah" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="39" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="33" target="38">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="40" value="Container Orchestration" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="41" value="Kubernetes" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="680" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="42" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="40" target="41">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="43" value="Docker Swarm" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="720" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="44" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="40" target="43">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="45" value="OpenShift" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="760" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="46" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="40" target="45">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="47" value="Nomad" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="800" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="48" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="40" target="47">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="49" value="Infrastructure as Code (IaC)" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="50" value="Terraform" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="840" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="51" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="49" target="50">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="52" value="AWS CloudFormation" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="880" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="53" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="49" target="52">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="54" value="Pulumi" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="920" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="55" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="49" target="54">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="56" value="Cloud Platforms" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1000" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="57" value="AWS" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1000" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="58" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="56" target="57">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="59" value="Azure" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1040" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="60" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="56" target="59">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="61" value="Google Cloud" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1080" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="62" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="56" target="61">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="63" value="DigitalOcean" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1120" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="64" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="56" target="63">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="65" value="Monitoring &amp; Logging" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1160" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="66" value="Prometheus" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1160" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="67" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="65" target="66">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="68" value="Grafana" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1200" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="69" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="65" target="68">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="70" value="ELK Stack" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1240" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="71" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="65" target="70">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="72" value="Loki" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1280" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="73" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="65" target="72">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="74" value="Splunk" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1320" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="75" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="65" target="74">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="76" value="Datadog" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1360" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="77" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="65" target="76">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="78" value="Artifact Repository" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1320" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="79" value="Nexus Repository" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1320" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="80" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="78" target="79">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="81" value="JFrog Artifactory" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1360" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="82" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="78" target="81">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="83" value="AWS CodeArtifact" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1400" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="84" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="78" target="83">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="85" value="Secret Management" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1480" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="86" value="HashiCorp Vault" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1480" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="87" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="85" target="86">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="88" value="AWS Secrets Manager" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1520" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="89" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="85" target="88">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="90" value="Azure Key Vault" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1560" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="91" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="85" target="90">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="92" value="Collaboration &amp; Issue Tracking" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1640" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="93" value="Jira" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1640" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="94" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="92" target="93">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="95" value="Trello" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1680" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="96" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="92" target="95">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="97" value="Asana" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1720" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="98" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="92" target="97">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="99" value="ClickUp" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1760" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="100" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="92" target="99">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="101" value="Security &amp; Compliance" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1800" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="102" value="SonarQube" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1800" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="103" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="101" target="102">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="104" value="Snyk" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1840" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="105" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="101" target="104">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="106" value="Aqua Security" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1880" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="107" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="101" target="106">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="108" value="Trivy" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1920" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="109" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="101" target="108">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="110" value="Service Mesh" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1960" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="111" value="Istio" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1960" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="112" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="110" target="111">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="113" value="Linkerd" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2000" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="114" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="110" target="113">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="115" value="Consul" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2040" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="116" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="110" target="115">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="117" value="API Management" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2120" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="118" value="Kong" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2120" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="119" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="117" target="118">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="120" value="Apigee" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2160" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="121" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="117" target="120">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="122" value="AWS API Gateway" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2200" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="123" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="117" target="122">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="124" value="Backup &amp; Recovery" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2280" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="125" value="Velero" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2280" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="126" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="124" target="125">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="127" value="Restic" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2320" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="128" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="124" target="127">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="129" value="Bacula" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2360" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="130" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="124" target="129">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="131" value="Automation &amp; Scripting" style="shape=rectangle;fillColor=#FFCC00;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2440" width="180" height="40" as_="geometry"/>
+        </mxCell>
+        <mxCell id="132" value="Bash" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2440" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="133" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="131" target="132">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="134" value="Python" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2480" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="135" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="131" target="134">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="136" value="Go" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2520" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="137" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="131" target="136">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+        <mxCell id="138" value="PowerShell" style="shape=ellipse;fillColor=#99CCFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2560" width="140" height="30" as_="geometry"/>
+        </mxCell>
+        <mxCell id="139" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" edge="1" parent="1" source="131" target="138">
+          <mxGeometry relative="1" as_="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
