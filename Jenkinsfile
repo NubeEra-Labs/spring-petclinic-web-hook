@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    
     tools {
         // Define tools with the names you set in Global Tool Configuration
         terraform 'terra'  // This uses the tool with the name 'terraform'
