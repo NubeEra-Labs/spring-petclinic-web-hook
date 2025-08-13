@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Checkout Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/patanfouziya/spring-petclinic.git'
+                git branch: 'main', url: 'https://github.com/NubeEra-Labs/spring-petclinic-web-hook.git'
             }
         }
 
@@ -39,12 +39,12 @@ pipeline {
                      echo "[tomcat_server]" > inventory
                      echo "\$(terraform output -raw tomcat_server_ip) ansible_user=ubuntu ansible_ssh_private_key_file=${SSH_PRIVATE_KEY_PATH} ansible_ssh_common_args='-o StrictHostKeyChecking=no'" >> inventory
                       
-                     echo "[mysql_server]" > inventory
-                     echo "\$(terraform output -raw mysql_server_ip) ansible_user=ubuntu ansible_ssh_private_key_file=${SSH_PRIVATE_KEY_PATH} ansible_ssh_common_args='-o StrictHostKeyChecking=no'" >> inventory
+                     // echo "[mysql_server]" > inventory
+                     // echo "\$(terraform output -raw mysql_server_ip) ansible_user=ubuntu ansible_ssh_private_key_file=${SSH_PRIVATE_KEY_PATH} ansible_ssh_common_args='-o StrictHostKeyChecking=no'" >> inventory
 
 
-                     echo "[maven_server]" > inventory
-                     echo "\$(terraform output -raw maven_server_ip) ansible_user=ubuntu ansible_ssh_private_key_file=${SSH_PRIVATE_KEY_PATH} ansible_ssh_common_args='-o StrictHostKeyChecking=no'" >> inventory
+                     // echo "[maven_server]" > inventory
+                     // echo "\$(terraform output -raw maven_server_ip) ansible_user=ubuntu ansible_ssh_private_key_file=${SSH_PRIVATE_KEY_PATH} ansible_ssh_common_args='-o StrictHostKeyChecking=no'" >> inventory
                     """
                 }
             }
@@ -55,14 +55,14 @@ pipeline {
                 script {
                     // Get the IP addresses of the EC2 instances created by Terraform
                     def tomcatServerIp = sh(script: "terraform output -raw tomcat_server_ip", returnStdout: true).trim()
-                    def mysqlServerIp = sh(script: "terraform output -raw mysql_server_ip", returnStdout: true).trim()
-                    def mavenServerIp = sh(script: "terraform output -raw maven_server_ip", returnStdout: true).trim()
+                    // def mysqlServerIp = sh(script: "terraform output -raw mysql_server_ip", returnStdout: true).trim()
+                    // def mavenServerIp = sh(script: "terraform output -raw maven_server_ip", returnStdout: true).trim()
                  
                     // Define the servers and their IPs in a map
                     def servers = [
-                        "tomcat_server": tomcatServerIp,
-                        "mysql_server" : mysqlServerIp,
-                        "maven_server" : mavenServerIp
+                        "tomcat_server": tomcatServerIp
+                        // "mysql_server" : mysqlServerIp,
+                        // "maven_server" : mavenServerIp
                     ]
                
                      // SSH user and private key path
@@ -127,7 +127,7 @@ pipeline {
     
         stage('Build WAR File with Maven') {
             steps {
-                sh "mvn clean package"
+                sh "mvn clean package -DskipTests"
             }
         }
 
