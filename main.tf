@@ -8,9 +8,6 @@ resource "aws_instance" "tomcat_server" {
   key_name      = "mujahed"
 }
 
-
-
-
 output  "tomcat_server_ip" {
   value = aws_instance.tomcat_server.public_ip
 }
